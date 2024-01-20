@@ -22,7 +22,8 @@
 - clone the repo
 
 - set vars values:
-    - add `vars.tfvars` file with your values, check `vars.tfvars.example`
+    - Terraform autoloads variables from `terraform.tfvars`
+    - add `terraform.tfvars` file with your values, check `terraform.tfvars.example`
     - check TF plan with vars: `tf plan -var-file=vars.tfvars`
 
 - if all good apply TF: `tf apply -var-file=vars.tfvars`
@@ -30,4 +31,3 @@
 
 - when completed, don't forget to run `tf destroy`
 
- 
