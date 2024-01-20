@@ -19,6 +19,8 @@
 - `alias ip='ip -c'`
 
 
+### Steps:
+
 - clone the repo
 
 - set vars values:
