@@ -19,6 +19,8 @@
 - `alias ip='ip -c'`
 
 
+### Steps:
+
 - clone the repo
 
 - set vars values:
@@ -30,4 +32,3 @@
 - check your infrastructure with `tf show`
 
 - when completed, don't forget to run `tf destroy`
-
